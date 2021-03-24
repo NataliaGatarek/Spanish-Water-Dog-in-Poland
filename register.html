@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ang">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="with=device-with, inicial-scale=1.0" />
+    <title>Spanish Water Dog in Poland</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Courgette"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="active"><a>Register</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="polishbreeders.html">Polish Breeders</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <p class="register">Register yourself</p>
+    <div class="flex-container">
+      <div class="flex-item">
+        <form class="input">
+          <label for="name" class="font">First and Last Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="required"
+            required
+          /><br />
+          <label for="number" class="font">Mobile Phone Number:</label><br />
+          <input
+            type="text"
+            id="number"
+            name="number"
+            placeholder="required"
+            required
+          /><br />
+        </form>
+        <label for="Country" class="font">Where do you come from:</label>
+        <select name="Country" id="Country" class="select font">
+          <option value="poland" class="font">Poland</option>
+          <option value="germany" class="font">Germany</option>
+          <option value="france" class="font">France</option>
+          <option value="italy" class="font">Italy</option>
+        </select>
+      </div>
+      <div class="flex-container3">
+        <p>Do you have a SWD?</p>
+        <form>
+          <input type="radio" id="Yes" name="Do you have SWD?" value="Yes" />
+          <label for="Yes" class="font">Yes</label>
+          <input type="radio" id="No" name="Do you have SWD?" value="No" />
+          <label for="No" class="font">No</label>
+        </form>
+        <p>How many SWD do you have?</p>
+        <form>
+          <input type="radio" id="1" name="How many?" value="1" />
+          <label for="1" class="font">1</label>
+          <input type="radio" id="2" name="How many?" value="2" />
+          <label for="2" class="font">2</label>
+          <input type="radio" id="more" name="How many?" value="more" />
+          <label for="more" class="font">more</label>
+        </form>
+        <p>What is the age of your dog/dogs?</p>
+        <form action="thankyou.html">
+          <input type="checkbox" id="0-1" name="age" value="0-1" />
+          <label for="0-1" class="font"> 0-1</label>
+          <input type="checkbox" id="1-2" name="age" value="1-2" />
+          <label for="1-2" class="font"> 1-2</label>
+          <input type="checkbox" id="older" name="age" value="older" />
+          <label for="older" class="font"> older </label>
+          <div class="container5">
+            <button class="font">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="conditions">
+      <p>Terms and Conditions</p>
+      <ol class="terms">
+        <li>
+          Opening an Account. We offer two types of accounts:
+          <ul>
+            <li>Business</li>
+            <li>Personal</li>
+          </ul>
+        </li>
+        <li>
+          Personal accounts
+          <ul>
+            <li>Send and request money from friends and family.</li>
+            <li>Buy goods and services</li>
+          </ul>
+        </li>
+        <li>
+          Business accounts
+          <ul>
+            <li>
+              Use a company or business name as the name on your business
+              account.
+            </li>
+            <li>
+              Allow employees access to some of the features of your business
+              account.
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <footer class="footer">
+      <p class="p">Website created by Natalia Gatarek</p>
+    </footer>
+  </body>
+</html>
