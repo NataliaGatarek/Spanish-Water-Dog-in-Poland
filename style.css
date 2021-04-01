@@ -3,16 +3,16 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:black;
+  background-color: black;
   font-weight: 400;
-  font-family: Courgette, sans-serif; 
+  font-family: Courgette, sans-serif;
 }
 nav li {
   float: right;
 }
 li a {
   display: block;
-  color:white;
+  color: white;
   text-align: right;
   padding: 14px 16px;
   text-decoration: none;
@@ -21,29 +21,29 @@ li a {
   background-color: brown;
 }
 .center {
-  font-family: Courgette, sans-serif; 
+  font-family: Courgette, sans-serif;
   font-weight: 900;
   text-align: center;
   font-size: 180%;
   margin-top: 10px;
 }
-.image{
+.image {
   border: 5px solid black;
   width: 170px;
   height: 170px;
-} 
+}
 /*div {
 margin-top: 50px;
 margin-left: 100px;
 }*/
 .div {
-margin-top: 40px;
-margin-left: 100px;
-padding: 10px;
+  margin-top: 40px;
+  margin-left: 100px;
+  padding: 10px;
 }
 .background {
   background-image: url(IMG_0276.JPG);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 body {
@@ -52,8 +52,8 @@ body {
   background-size: auto;
 }
 p {
-  color:black;
-  font-family: Courgette, sans-serif; 
+  color: black;
+  font-family: Courgette, sans-serif;
   font-size: 100%;
   font-weight: 600;
 }
@@ -62,27 +62,33 @@ p {
   margin-right: 15px;
 }
 .picture_two {
-  float:left;
+  float: left;
   margin-right: 15px;
-}   
-.text-align { text-align: center }
-* {
-  margin:0; 
 }
-html, body { height:100%; }
+.text-align {
+  text-align: center;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
 .footer {
   background-color: black;
   text-align: left;
   padding: 2px;
-  position:fixed;
-  bottom:0px;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
 }
 /*table, th, td {
   border: 3px solid black; 
   border-collapse: collapse;
 }*/
-th, td {
+th,
+td {
   padding: 15px;
 }
 table {
@@ -91,20 +97,20 @@ table {
 }
 td {
   text-align: center;
-  font-family: Courgette, sans-serif; 
+  font-family: Courgette, sans-serif;
   font-weight: 500;
 }
 th {
   text-align: center;
-  font-family: Courgette, sans-serif; 
+  font-family: Courgette, sans-serif;
   font-weight: 800;
 }
 .p {
   text-align: right;
-  font-family: Courgette, sans-serif; 
+  font-family: Courgette, sans-serif;
   font-weight: 400;
   color: white;
-  padding: 3px; 
+  padding: 3px;
   padding-right: 20px;
 }
 .flex-container {
@@ -112,7 +118,7 @@ th {
   margin-top: 10px;
   margin-left: 450px;
   border: solid black 3px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -125,8 +131,8 @@ th {
 button {
   background-color: white;
   color: black;
-  border: 2px solid black; 
-  font-size: 15px; 
+  border: 2px solid black;
+  font-size: 15px;
   margin: 6px;
 }
 /*.flex-container2 {
@@ -143,20 +149,19 @@ button {
   margin-top: 10px;
 }
 .form1 {
-  position:fixed;
+  position: fixed;
   top: 150px;
   left: 250px;
 }
 .flex-container3 {
-  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .flex-container4 {
-  display: flex;  
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -169,24 +174,24 @@ button {
 .pmap {
   font-size: 180%;
 }
-.outer-container{
+.outer-container {
   width: 100vw;
   height: 90vh;
-  display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.item{
+.item {
   margin: 2px;
 }
 img {
-  width: 250px; 
+  width: 250px;
   height: 250px;
   border: 2px solid black;
-  }
-.thankyou{
+}
+.thankyou {
   font-family: Courgette, sans-serif;
   font-weight: 900;
   font-size: 500%;
@@ -194,11 +199,11 @@ img {
   margin-top: 250px;
   margin-left: 50px;
 }
-.back{
+.back {
   margin-top: 50px;
-  margin-left:700px;
+  margin-left: 700px;
 }
-.container5{
+.container5 {
   height: 50px;
   margin-top: 10px;
   display: flex;
@@ -207,18 +212,19 @@ img {
   align-items: center;
 }
 
-.grid{
+.grid {
   display: grid;
-  grid-template-areas:"nav nav nav"
-                      "header main main"
-                      "header main main"
-                      "footer footer footer";
+  grid-template-areas:
+    "nav nav nav"
+    "header main main"
+    "header main main"
+    "footer footer footer";
 }
-.navgrid{
+.navgrid {
   grid-area: nav;
   justify-content: center;
 }
-.headergrid{
+.headergrid {
   padding-top: 20px;
   grid-area: header;
   display: flex;
@@ -226,7 +232,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.main{
+.main {
   padding-top: 20px;
   grid-area: main;
   display: flex;
@@ -237,9 +243,9 @@ img {
 i {
   color: black;
 }
-.icon{
-  position:absolute;
-  top:23%;
+.icon {
+  position: absolute;
+  top: 23%;
   left: 50%;
 }
 input {
@@ -249,9 +255,9 @@ input {
 }
 .select {
   width: 150px;
-  height:25px;
-  padding:0;
-  margin:0;
+  height: 25px;
+  padding: 0;
+  margin: 0;
   border: 2px solid black;
 }
 .conditions {
@@ -259,18 +265,18 @@ input {
   margin-top: 20px;
   margin-bottom: 2px;
   margin-left: 600px;
-  font-family:Courgette, sans-serif;
-  color:black;
+  font-family: Courgette, sans-serif;
+  color: black;
   font-size: 100%;
 }
-iframe{   
-  width: 300px;  
+iframe {
+  width: 300px;
   height: 200px;
   border: 0;
 }
-.font { 
-  font-family:Courgette, sans-serif;
-  color:black;
+.font {
+  font-family: Courgette, sans-serif;
+  color: black;
   font-size: 100%;
   font-weight: 700;
 }

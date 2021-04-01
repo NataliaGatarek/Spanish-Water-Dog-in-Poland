@@ -23,12 +23,13 @@
     <p class="register">Register yourself</p>
     <div class="flex-container">
       <div class="flex-item">
-        <form class="input">
-          <label for="name" class="font">First and Last Name:</label><br />
+        <form action="thankyou.html">
+          <label for="firstname" class="font">First and Last Name:</label><br />
           <input
             type="text"
-            id="name"
-            name="name"
+            value=""
+            id="firstname"
+            name="firstname"
             placeholder="required"
             required
           /><br />
@@ -40,7 +41,7 @@
             placeholder="required"
             required
           /><br />
-        </form>
+      
         <label for="Country" class="font">Where do you come from:</label>
         <select name="Country" id="Country" class="select font">
           <option value="poland" class="font">Poland</option>
@@ -51,21 +52,21 @@
       </div>
       <div class="flex-container3">
         <p>Do you have a SWD?</p>
-        <form>
+       
           <input type="radio" id="Yes" name="Do you have SWD?" value="Yes" />
           <label for="Yes" class="font">Yes</label>
           <input type="radio" id="No" name="Do you have SWD?" value="No" />
           <label for="No" class="font">No</label>
-        </form>
+        
         <p>How many SWD do you have?</p>
-        <form>
+        
           <input type="radio" id="1" name="How many?" value="1" />
           <label for="1" class="font">1</label>
           <input type="radio" id="2" name="How many?" value="2" />
           <label for="2" class="font">2</label>
           <input type="radio" id="more" name="How many?" value="more" />
           <label for="more" class="font">more</label>
-        </form>
+       
         <p>What is the age of your dog/dogs?</p>
         <form action="thankyou.html">
           <input type="checkbox" id="0-1" name="age" value="0-1" />
@@ -75,7 +76,7 @@
           <input type="checkbox" id="older" name="age" value="older" />
           <label for="older" class="font"> older </label>
           <div class="container5">
-            <button class="font">Submit</button>
+            <input type="submit"/>
           </div>
         </form>
       </div>
@@ -115,5 +116,6 @@
     <footer class="footer">
       <p class="p">Website created by Natalia Gatarek</p>
     </footer>
+     <script src="register.js"></script>
   </body>
 </html>
