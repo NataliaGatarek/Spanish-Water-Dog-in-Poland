@@ -2,10 +2,9 @@ function displayUserInfo() {
   let params = new URL(document.location).searchParams;
   let name = params.get("name");
   console.log("name", name);
-    document.getElementById("user.name").innerHTML = name;
-      let lastname = params.get("lastname");
+  let lastname = params.get("lastname");
   console.log("lastname", lastname);
-    document.getElementById("user.name").innerHTML = lastname;
+  document.getElementById("user.name").innerHTML = lastname; name;
 }
 
 

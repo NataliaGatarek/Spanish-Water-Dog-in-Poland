@@ -20,57 +20,62 @@
         <li><a href="index.html">Home</a></li>
       </ul>
     </nav>
-    <form class="form-inline font" action="thankyou.html">
-      <label for="name">Name:</label>
-      <input
-        type="name"
-        id="name"
-        placeholder="Enter name"
-        name="name"
-        value=""
-      />
-      <label for="lastname">Last name:</label>
-      <input
-        type="lastname"
-        id="lastname"
-        placeholder="Enter last name"
-        name="lastname"
-        value=""
-      />
-      <label for="Country">Country:</label>
-      <select name="Country" id="Country" class="select font">
-        <option value="poland" class="font">Poland</option>
-        <option value="germany" class="font">Germany</option>
-        <option value="france" class="font">France</option>
-        <option value="italy" class="font">Italy</option>
-      </select>
-      <p>Do you have a SWD?</p>
-      <div class="contra">
-        <input type="radio" id="Yes" name="Do you have SWD?" value="Yes" />
-        <label for="Yes" class="font">Yes</label>
-        <input type="radio" id="No" name="Do you have SWD?" value="No" />
-        <label for="No" class="font">No</label>
-      </div>
-      <p>How many SWD do you have?</p>
-      <div class="contra">
-        <input type="radio" id="1" name="How many?" value="1" />
-        <label for="1" class="font">1</label>
-        <input type="radio" id="2" name="How many?" value="2" />
-        <label for="2" class="font">2</label>
-        <input type="radio" id="more" name="How many?" value="more" />
-        <label for="more" class="font">more</label>
-      </div>
-      <p>What is the age of your dog/dogs?</p>
-      <div class="contra">
-        <input type="checkbox" id="0-1" name="age" value="0-1" />
-        <label for="0-1" class="font"> 0-1</label>
-        <input type="checkbox" id="1-2" name="age" value="1-2" />
-        <label for="1-2" class="font"> 1-2</label>
-        <input type="checkbox" id="older" name="age" value="older" />
-        <label for="older" class="font"> older </label>
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+    <div class="form1">
+      <form class="form-inline font" action="thankyou.html">
+        <label for="name">Name:</label>
+        <input
+          type="name"
+          id="name"
+          placeholder="Enter name"
+          name="name"
+          value=""
+        />
+        <label for="lastname">Last name:</label>
+        <input
+          type="lastname"
+          id="lastname"
+          placeholder="Enter last name"
+          name="lastname"
+          value=""
+        />
+        <label for="Country">Country:</label>
+        <select name="Country" id="Country" class="select font">
+          <option value="poland" class="font">Poland</option>
+          <option value="germany" class="font">Germany</option>
+          <option value="france" class="font">France</option>
+          <option value="italy" class="font">Italy</option></select
+        ><br />
+        <p>Do you have a SWD?</p>
+        <div class="contra">
+          <input type="radio" id="Yes" name="Do you have SWD?" value="Yes" />
+          <label for="Yes" class="font">Yes</label>
+          <input type="radio" id="No" name="Do you have SWD?" value="No" />
+          <label for="No" class="font">No</label>
+        </div>
+        <br />
+        <p>How many SWD do you have?</p>
+        <div class="contra">
+          <input type="radio" id="1" name="How many?" value="1" />
+          <label for="1" class="font">1</label>
+          <input type="radio" id="2" name="How many?" value="2" />
+          <label for="2" class="font">2</label>
+          <input type="radio" id="more" name="How many?" value="more" />
+          <label for="more" class="font">more</label>
+        </div>
+        <br />
+        <p>What is the age of your dog/dogs?</p>
+        <div class="contra">
+          <input type="checkbox" id="0-1" name="age" value="0-1" />
+          <label for="0-1" class="font"> 0-1</label>
+          <input type="checkbox" id="1-2" name="age" value="1-2" />
+          <label for="1-2" class="font"> 1-2</label>
+          <input type="checkbox" id="older" name="age" value="older" />
+          <label for="older" class="font"> older </label>
+        </div>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
     <script src="form.js"></script>
   </body>
 </html>

@@ -292,13 +292,14 @@ iframe {
   vertical-align: middle;
   margin: 5px 10px 5px 0;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 2px solid black;
 }
 .form-inline button {
   padding: 10px 20px;
-  background-color: dodgerblue;
+  background-color: black;
   border: 1px solid #ddd;
   color: white;
+  font-family: Courgette, sans-serif;
 }
 @media (max-width: 800px) {
   .form-inline input {
@@ -312,4 +313,8 @@ iframe {
 }
 .contra {
   display: inline;
+}
+.form1 {
+  position: absolute;
+  left: 40%;
 }
