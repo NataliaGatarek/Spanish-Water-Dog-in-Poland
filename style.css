@@ -195,13 +195,13 @@ img {
 .thankyou {
   font-family: Courgette, sans-serif;
   font-weight: 900;
-  font-size: 500%;
+  font-size: 400%;
   text-align: center;
   margin-top: 250px;
   margin-left: 50px;
 }
 .back {
-  margin-top: 50px;
+  margin-top: 140px;
   margin-left: 700px;
 }
 .container5 {
@@ -318,4 +318,8 @@ iframe {
 .form1 {
   position: absolute;
   left: 40%;
+}
+.tnk {
+  position: absolute;
+  right: 45%;
 }

@@ -5,7 +5,10 @@ function displayUserInfo() {
   let lastname = params.get("lastname");
   console.log("lastname", lastname);
   document.getElementById("user.name").innerHTML = name;
-  document.getElementById("user.details").innerHTML = lastname; 
+  document.getElementById("user.details").innerHTML = lastname;
+   let cnt = params.get("cnt");
+  console.log("cnt", cnt);
+  document.getElementById("user.cnt").innerHTML = cnt;
   let age = parseInt(params.get('age'))
   console.log("age", age);
   document.getElementById("user.age").innerHTML = age;
@@ -21,7 +24,6 @@ function displayUserInfo() {
 
   let pageTitle = "THANKYOU";
 console.log(`document.title`, document.title);
-//  DECIDING WHEN TO RUN displayUserInfo() BASED ON THE TITLE OF THE PAGE
 if (document.title.toLowerCase() === pageTitle.toLowerCase()) {
   displayUserInfo();
 }
